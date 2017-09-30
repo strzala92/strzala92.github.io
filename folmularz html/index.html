@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -7,23 +8,31 @@
 
 <body>
     <form action="https://formspree.io/strzeleckis20@gmail.com" method="POST">
-       
-        <label for=“imie”>Imię:</label>
-        <input type="text" name="imie" id="imie"><br />
+
+        <label for="imie_id">Imię:</label>
+        <input type="text" name="imie" id="imie_id"><br />
+
+        <label for="nazwisko_id">Nazwisko:</label>
+        <input type="text" name="nazwisko" id="nazwisko_id"><br />
+
+        <label for="email_id">Email:</label>
+        <input type="email" name="email" id="email_id"><br />
+
+        <label for="telefon_id">Telefon:</label>
+        <input type="tel" name="telefon" id="telefon_id"><br/>
+
+        <label for="wiadomosc_id">Wiadomość:</label>
+        <textarea maxlength="100" name="wiadomosc" id="wiadomosc_id"></textarea> <br/>
+
+        <select name="select">
+            <option value="value1">Wartość 1</option>
+            <option value="value2" selected>Wartość 2</option>
+            <option value="value3">Wartość 3</option>
+        </select><br/>
+    
         
-        <label for=“nazwisko”>Nazwisko:</label>
-        <input type="text" name="nazwisko" id="nazwisko"><br />
-        
-        <label for=“email”>Email:</label>
-        <input type="email" name="email" id="email"><br />
-
-        <label for=“telefon”>Telefon:</label>
-        <input type="tel" name="telefon" id="telefon"><br/>
-
-        <label for=“wiadomosc”>Wiadomość:</label>
-        <textarea maxlength=“1000” name="wiadomosc" id="wiadomosc"></textarea>
-
         <input type="submit" value="Wyslij">
     </form>
 </body>
+
 </html>

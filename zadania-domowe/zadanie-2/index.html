@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Zadanie 2</title>
 </head>
+
 <body>
-    <p>Zadanie 2</p>
+    <form action="https://formspree.io/strzeleckis20@gmail.com" method="POST">
+
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"><br/>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"><br/>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br/>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone"><br/>
+
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="cracow">Cracow</option>    
+            <option value="warsaw">Warsaw</option>    
+            <option value="gdansk">Gdansk </option>
+        </select> <br/>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" id="gender">Male
+        <input type="radio" name="gender" value="female" >Female<br>
+
+        <label for="message">Message</label>
+        <textarea name="message" rows="2" cols="50" id="message"></textarea><br>
+
+
+        <p><input type="checkbox" name="check">Wyrażam zgodę na przetwarzanie moich danych osobowych.</p><br>
+
+
+        <input type="submit" value="Send">
+
+    </form>
 </body>
+
 </html>

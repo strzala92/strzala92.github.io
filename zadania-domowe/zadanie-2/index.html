@@ -27,16 +27,20 @@
             <option value="warsaw">Warsaw</option>    
             <option value="gdansk">Gdansk </option>
         </select> <br/>
-
-        <label for="gender">Gender:</label>
-        <input type="radio" name="gender" value="male" id="gender">Male
-        <input type="radio" name="gender" value="female" >Female<br>
-
+        
+ <fieldset>
+  <legend>Gender:</legend>  
+        <label for="gender"></label><input type="radio" name="gender" value="male"  id="gender">Male
+        <label for="gender"></label> <input type="radio" name="gender" value="female" id="gender">Female<br>
+        </fieldset>   
         <label for="message">Message</label>
         <textarea name="message" rows="2" cols="50" id="message"></textarea><br>
 
 
-        <p><input type="checkbox" name="check">Wyrażam zgodę na przetwarzanie moich danych osobowych.</p><br>
+        <p>Wyrażam zgodę na przetwarzanie moich danych osobowych.</p>
+        <label for="check">Accept</label>
+        <input type="checkbox" name="check" id="check">
+        <br>
 
 
         <input type="submit" value="Send">

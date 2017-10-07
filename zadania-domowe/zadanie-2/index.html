@@ -4,33 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Zadanie 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="https://formspree.io/strzeleckis20@gmail.com" method="POST">
+    <form id="Formularz" action="https://formspree.io/strzeleckis20@gmail.com" method="POST">
 
         <label for="fname">First Name:</label>
-        <input type="text" name="fname" id="fname"><br/>
+        <input type="text" name="fname" id="fname">
 
         <label for="lname">Last Name:</label>
-        <input type="text" name="lname" id="lname"><br/>
+        <input type="text" name="lname" id="lname" class="oneline">
 
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br/>
+        <input type="email" name="email" id="email">
 
         <label for="phone">Phone:</label>
-        <input type="tel" name="phone" id="phone"><br/>
+        <input type="tel" name="phone" id="phone">
 
         <label for="city">City:</label>
         <select name="city" id="city">
-            <option value="cracow">Cracow</option>    
+            <option value="cracow" >Cracow</option>    
             <option value="warsaw">Warsaw</option>    
             <option value="gdansk">Gdansk </option>
-        </select> <br/>
+        </select>
 
         <label for="gender">Gender:</label>
-        <input type="radio" name="gender" value="male" id="gender">Male
-        <input type="radio" name="gender" value="female" >Female<br>
+        <label><input type="radio" name="gender" value="male" id="gender" >Male</label>
+        <label><input type="radio" name="gender" value="female" >Female</label>
 
         <label for="message">Message</label>
         <textarea name="message" rows="2" cols="50" id="message"></textarea><br>
@@ -43,5 +44,3 @@
 
     </form>
 </body>
-
-</html>

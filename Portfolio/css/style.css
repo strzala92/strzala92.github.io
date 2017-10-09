@@ -1,0 +1,121 @@
+body {
+    font-family: Lato,sans-serif;
+    width: 100%;
+    color: #291f1a;
+    margin: 0 auto;
+   
+}
+
+span {
+    color: green;
+}
+
+h3 {
+    color: white;
+}
+ul{
+    margin:0;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+     font-weight: 200;
+
+}
+
+h1 {
+    text-align: center;
+     font-weight: 200;
+}
+
+li {
+    display: inline-block;
+    margin-right:10px;
+    line-height: 50px;
+}
+
+figcaption {
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: white;
+
+}
+
+#obrazek {
+    position: relative;
+    background-image: url("../img/header-background.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#tytul {
+    color: white;
+    padding 50px;
+    text-align: center;
+
+}
+
+.nav_a {
+    text-align: right;
+    padding: 10px;
+    color: #2cff2c;
+    text-decoration: none;
+}
+
+section {
+    clear: both;
+    padding: 50px 70px;
+}
+
+#moje_umiejetnosci {
+    text-align: center;
+}
+
+#img_o_mnie {
+    width: 30%;
+}
+
+#header_title {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.obrazek {
+    display: inline-block;
+    width: 33%;
+}
+
+#foto {
+      width: 33%;
+    float: left;
+    display: inline-block;
+}
+
+#m {
+    background-color: rgba {
+        255,
+        255,
+        255,
+        0.5
+    }
+}
+
+#jan-nowak {
+    float: left;
+    width: 33%;
+    text-align: center;
+}

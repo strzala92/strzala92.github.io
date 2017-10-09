@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.clear{
+ clear: both;
+}
+section
+{padding: 30px 50px;}
+
+/* nawigacja */
+#main-nav {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+#main-nav .menu {
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+#main-nav .menu .menu-item {
+    display: inline-block;
+    line-height: 50px;
+}
+
+#main-nav .menu .menu-item a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+#main-nav .menu .menu-item a:hover {
+    color: #333333;
+}
+
+/* header */
+#main-header {
+    height: 80vh;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .header-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+#main-header .header-inner h1{
+    font-size: 70px;
+}
+#about-me h2 span,
+#main-header .header-inner h1 span{
+    color: lime;
+}
+#about-me h2,
+#main-header .header-inner h1,
+#main-header .header-inner h2 {
+    font-weight: 100;
+}
+#about-me h2,
+#main-header .header-inner h2 {
+    font-size: 40px;
+}
+#about-me h2{
+    text-align: center;
+}
+#about-me figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin:0;
+}
+#about-me img{
+    width: 40%;
+}
+#about-me p{
+    padding-right: 60px;
+}

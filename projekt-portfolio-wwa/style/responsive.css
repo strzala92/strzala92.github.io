@@ -5,7 +5,7 @@
     #portfolio .portfolio-items .portfolio-item {
         width: 50%;
     }
-    #portfolio #portfolio-item-3 {
+    #portfolio .portfolio-items .portfolio-item:last-child {
         width: 100%;
     }
     #portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
@@ -57,6 +57,20 @@
     section {
         padding: 0px 40px 50px;
     }
+    #main-header .main-header-content h1{
+        font-size: 3em;
+    }
+     #main-header .main-header-content h1{
+        font-size: 1.5em;
+    }
+    #about > figure,
+     #about .about_info{
+        width: 100%;
+    }
+    #about > figure>img{
+        width: inherit;
+    }
+    
 }
 
 @media all and (max-width:576px) {
@@ -66,6 +80,9 @@
         width: 100%;
         float: none;
         margin: 0px;
+    }
+    #about > figure>img{
+        width: inherit;
     }
     section {
         padding: 0px 10px 30px;

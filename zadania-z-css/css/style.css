@@ -1,15 +1,26 @@
 body{
     margin: 0;
 }
+li:after{
+    
+}
+
+/*zadanie 6*/
+input{
+    font-family: cursive;
+}
+/*Zadanie 7*/
 a[href$='docx']{
     color:red;
 }
 a[href$='doc']{
     color:green;
 }
+/*zadanie 8*/
 q:lang(en){
     quotes: "*" "*";
 }
+/*zadanie 9*/
 footer{
     
     width: 100%;
@@ -18,4 +29,7 @@ footer{
     position: fixed;
     z-index: 1;
     bottom: 0;
+}
+input{
+    font-family: cursive;
 }

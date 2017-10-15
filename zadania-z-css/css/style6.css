@@ -1,0 +1,33 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+   
+}
+#box2{
+   
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 8px;
+    z-index: -1;
+}
+
+#box:hover{
+     animation: obracanie;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+
+}
+
+
+@keyframes obracanie{
+    
+    50%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(90deg);
+    }
+}

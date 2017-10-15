@@ -199,7 +199,8 @@ section {
 #portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
     color: #fff;
     position: absolute;
-    top: 50% transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
     right: 0;
     left: 0;
     padding: 5px;

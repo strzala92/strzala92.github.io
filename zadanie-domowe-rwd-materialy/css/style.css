@@ -32,7 +32,6 @@ body {
     position: absolute;
     left: 2%;
     top: 50%;
-    width: 100%;
     text-align: left;
     color: #fff;
 }
@@ -51,7 +50,7 @@ body {
     }
     .text {
         text-align: right;
-        left: -40px;
+        right: 20px;
         top: 100px;
 
     }
@@ -70,7 +69,6 @@ body {
     }
     .text {
         position: static;
-        width: 100%;
         margin: 0 auto;
         text-align: center;
 

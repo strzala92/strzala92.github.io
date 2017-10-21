@@ -25,11 +25,12 @@ wyswietlNazwe();
 console.log(imie);
 
 var wyswietlWiek = function () {
-console.log(30);
+    console.log(30);
 }
 
 wyswietlWiek();
 var wieka;
+
 function podajWiek(wieka) {
     console.log(wieka);
 }
@@ -52,22 +53,3 @@ function dodawanie(parametr1, parametr2) {
 }
 
 console.log('dodawanie wynik ' + dodawanie(10, 5));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

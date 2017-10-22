@@ -6,10 +6,12 @@ function odwroc(napis){
         tablica[i]=napis[i];
     }
     
-   tablica.reverse();
+   tablica.join();
    
     
     return tablica.join('');
 }
 
-console.log(odwroc("Akademia108"));
+var napis ="Akademia108"
+
+console.log(odwroc(napis));

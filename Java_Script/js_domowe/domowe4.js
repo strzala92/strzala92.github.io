@@ -6,7 +6,7 @@ function odwroc(napis){
         tablica[i]=napis[i];
     }
     
-   tablica.reverse();
+   tablica.sort();
    
     
     return tablica.join('');

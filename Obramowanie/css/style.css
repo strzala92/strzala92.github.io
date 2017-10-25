@@ -1,0 +1,135 @@
+body {
+    background: #fff;
+}
+
+.nowa {
+    width: 262px;
+    height: 263px;
+    position: absolute;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+    width: 262px;
+    height: 263px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.containers {
+    width: 262px;
+    height: 263px;
+
+    margin: 0 auto;
+}
+
+.druga {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.druga:before{
+    top: -2px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    /* margin-left: -36px; */
+    border: 1px solid #000;
+    border-bottom: none;
+    transition: width 0.15s linear 0.15s, left 0.15s linear 0.15s, margin 0.15s linear 0.15s, height 0.15s linear;
+}
+
+div:hover .druga:before
+{
+    width: 100%;
+    height: 131.5px;
+    left: 2px;
+    margin-left: 20;
+    transition: width 0.15s linear, left 0.15s linear, margin 0.15s linear, height 0.15s linear 0.15s;
+
+}
+
+
+
+.normal,
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    /*display: none;*/
+}
+
+.normal {
+    border: 2px solid #000;
+}
+
+.normals {
+    border: 2px solid #000;
+}
+
+
+.hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.normal:before,
+.normal:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 50%;
+    margin-left: -36px;
+
+    border: 2px solid #fff;
+
+    transition: width 0.15s linear 0.15s, left 0.15s linear 0.15s, margin 0.15s linear 0.15s, height 0.15s linear;
+}
+
+div:hover .normal:before,
+div:hover .normal:after {
+    width: 100%;
+    height: 131.5px;
+
+    left: -2px;
+    margin-left: 0;
+
+    transition: width 0.15s linear, left 0.15s linear, margin 0.15s linear, height 0.15s linear 0.15s;
+
+}
+
+
+.normal:before,
+.hover:before {
+    top: -2px;
+
+    border-bottom: none;
+}
+
+.normal:after,
+.hover:after {
+    bottom: -2px;
+
+    border-top: none;
+}
+
+/*
+div:hover .hover:before,
+div:hover .hover:after {
+    width: 68px;
+    margin-left: -36px;
+
+    border-width: 2px;
+
+    transition: width 0.15s linear 0.15s, left 0.15s linear 0.15s, margin 0.15s linear 0.15s, border 0.01s linear 0.15s;
+}
+*/

@@ -1,17 +1,16 @@
-'use strickt';
+'use strict';
 
-var tablica = [5,8,3,8,0,2,3,6,8,3,7,9,1,3];
+var tablica = [5,8,3,8,0,2,3,6,8,3,7,9,1,3,6,3,3,5,9,0];
 console.log(tablica);
-function babelkowe(tablica) {
+function babelkowe(tabela) {
     var pomocnicza=0;
-    for(var i = tablica.length-1; i > 0; i--) 
-     { for(var a = tablica.length-1; a > 0; a--){
-           if(tablica[a]<tablica[a-1])
+    for(var i = 0; i < tabela.length; i++) 
+     { for(var a = 0; a < tabela.length; a++){
+           if(tabela[a]<tabela[a-1])
            {
-             pomocnicza=tablica[a-1];
-             tablica[a-1]=tablica[a];
-             tablica[a]=pomocnicza;
-             console.log(tablica);
+             pomocnicza=tabela[a-1];
+             tabela[a-1]=tabela[a];
+             tabela[a]=pomocnicza;
            }
           
      }
@@ -21,3 +20,4 @@ function babelkowe(tablica) {
 }
 
 babelkowe(tablica);
+console.log(tablica);

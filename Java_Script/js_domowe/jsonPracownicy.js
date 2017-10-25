@@ -12,15 +12,3 @@ jsonPracownicy.pracownicy.forEach(function(element, index){
     console.log(index + " "+ element.firstName+" "+element.lastName );
 });
   
-var Ksiazka = {
-tytul: "",
-autor: "",
-przeczytane: Boolean,
-
-opiszKsiazke:  function(){
-        return "Książka ma tytuł " + tytul + ", autorem jest " + autor + " i została przeczytana";
-    }
-}
-
-
-console.log(Ksiazka.opiszKsiazke);

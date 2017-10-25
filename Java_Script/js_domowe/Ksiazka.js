@@ -6,4 +6,7 @@ var jsonPracownicy = {
 ]
 }
 
-console.log(jsonPracownicy);
+console.log(jsonPracownicy.pracownicy);
+
+jsonPracownicy.pracownicy.forEach(function(element, index){
+    console.log(index+ " "+ element.firstName+ " "+ element.lastName)});

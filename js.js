@@ -3,8 +3,8 @@ function sortownaie(tablica){
 for (var i = 1; i < tablica.length; i++)
     {
         var pomocnicza=tablica[i];
-        var j = i
-        for(j=i; tablica[j-1]>pomocnicza; j--)
+        
+        for(var j = i; tablica[j-1]>pomocnicza; j--)
             {
                 tablica[j]=tablica[j-1];
             }
@@ -16,4 +16,5 @@ for (var i = 1; i < tablica.length; i++)
     }
    return tablica;
 }
+console.log(tablicaDoPosortowania);
 console.log(sortownaie(tablicaDoPosortowania));

@@ -7,12 +7,8 @@ for (var i = 1; i < tablica.length; i++)
         for(var j = i; tablica[j-1]>pomocnicza; j--)
             {
                 tablica[j]=tablica[j-1];
-            }
-        
+            }     
             tablica[j]=pomocnicza;
-        
-    
-        
     }
    return tablica;
 }

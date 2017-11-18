@@ -11,8 +11,22 @@
 //}};
 
 $(function(){
+    
+    
+    $('#nav-menu a').click(function(event){
+        
+        console.log(event.target.hash);
+        $('html').animate({
+            scrollTop: $(event.target.hash).offset().top},800);
+        })
+    
+//console.log(a);   
+
+    
 $(window).scroll(function(){
-    console.log('asd');
+   
+
+    
     if($(window).scrollTop()>50)
         {
             $('#nav-menu').addClass('scroll');
@@ -26,4 +40,20 @@ $(window).scroll(function(){
             $('#nav-menu').addClass('scroll');
         }
 });
+
+
+//var a = document.getElementById('nav-menu');
+//
+//a.addEventListener('click', function(e){
+//    
+//    var b = document.getElementsByTagName('a');
+//    
+//    console.log(b[a].getAttribute('href'));
+//    
+//} );
+//    
+
+//console.log(a[1].getAttribute('href'));
+
+
 

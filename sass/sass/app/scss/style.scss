@@ -62,9 +62,12 @@ section {
     }
 }
 
-#umiejetnosci h2 {
+#umiejetnosci {
     h2 {
         text-align: center;
+        span{
+            color: $limecolor;
+        }
     }
     p {
         text-align: center;

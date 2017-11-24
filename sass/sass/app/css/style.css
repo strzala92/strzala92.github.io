@@ -43,23 +43,25 @@ section {
   #about figure img {
     width: 50%; }
 
-#umiejetnosci h2 h2 {
+#umiejetnosci h2 {
   text-align: center; }
+  #umiejetnosci h2 span {
+    color: limegreen; }
 
-#umiejetnosci h2 p {
+#umiejetnosci p {
   text-align: center;
   padding-bottom: 40px; }
 
-#umiejetnosci h2 h1 span {
+#umiejetnosci h1 span {
   color: limegreen; }
 
-#umiejetnosci h2 div {
+#umiejetnosci div {
   padding: 50px 0px;
   text-align: center; }
-  #umiejetnosci h2 div figure {
+  #umiejetnosci div figure {
     display: inline-block; }
 
-#umiejetnosci h2 figcaption {
+#umiejetnosci figcaption {
   text-align: center; }
 
 #portfolio h2 {
